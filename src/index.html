@@ -11,7 +11,7 @@
   <body>
     <div id="wrapper">
       <header>
-        <img src="./images/logosvg.svg" alt="Logo" class="img-logo animated flip "> 
+        <img src="./images/logosvg.svg" alt="Logo" class="img-logo animated flip " > 
         <h1>Los viajes de Gulliver</h1>
       </header>
 
@@ -32,12 +32,19 @@
           <h2>Portada</h2>
           <div style="text-align: center;">
 
-            <img srcset="./images/clip-path-small.jpg 400w,
-                       ./images/clip-path-medium.jpg 600w,
-                       ./images/clip-path-large.jpg 1200w"
-              sizes="(max-width: 710px) 400px,
-                     (max-width: 600px) 600px,
-                     (max-width: 991px) 1200px" class="clip-path-1 bounce" alt="Los viajes de Gulliver" style="width:50%;height:50%;">
+            <img      srcset="./images/clip-path-small.jpg 400w,
+                              ./images/clip-path-medium.jpg 600w,
+                              ./images/clip-path-large.jpg 1200w"
+                      sizes=" (max-width: 710px) 400px,
+                              (max-width: 600px) 600px,
+                              (max-width: 991px) 1200px" 
+                     
+                      class="clip-path-1 bounce" 
+                      alt="Los viajes de Gulliver" 
+                      style="width:50%;height:50%;"
+                     
+                      loading="lazy"
+                     >
  
               
           </div>
@@ -54,13 +61,13 @@
           <picture>
             <source media="(max-width: 799px)" srcset="./images/picture/pictureZoom.jpg">
             <source media="(min-width: 800px)" srcset="./images/picture/picture.jpg">
-            <img src="./images/picture/picture.jpg" alt="Los viajes de Gulliver">
+            <img src="./images/picture/picture.jpg" alt="Los viajes de Gulliver" loading="lazy">
           </picture>
           
           <img srcset=" ./images/resolution/airplane-medium.jpg 561w,
                         ./images/resolution/airplane-small.jpg  1.5x,
                         ./images/resolution/airplane-small.jpg  2x"
-                        src="./images/resolution/airplane-small.jpg" alt="LVDG">
+                        src="./images/resolution/airplane-small.jpg" alt="LVDG" loading="lazy">
 
           
                         
@@ -68,7 +75,7 @@
       </main>
 
       <footer>
-        <img src="./images/logofootersvg.svg" alt="Logo" class=img-footer><br>
+        <img src="./images/logofootersvg.svg" alt="Logo" class="img-footer" loading="lazy"><br>
 
         <a href="index.html" class="link-footer">Portada</a>
         <a href="c.html" class="link-footer">Categoría </a>
